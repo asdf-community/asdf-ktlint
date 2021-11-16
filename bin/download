@@ -14,3 +14,4 @@ release_file="$ASDF_DOWNLOAD_PATH/$TOOL_NAME-$ASDF_INSTALL_VERSION"
 
 # Download file to the download directory
 download_release "$ASDF_INSTALL_VERSION" "$release_file"
+chmod +x "$release_file"
